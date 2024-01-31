@@ -1,0 +1,108 @@
+- What is Github?
+GitHub is a web-based platform that provides a space for developers to host (store) and 
+manage their source code using git repositories in order to track changes and collaborate 
+with others on a project.
+
+- Creating a Github Account
+a. On your browser, go to "https://github.com/" and click on "Sign Up" button
+b. Enter your working email address and click on "continue" button for verification
+c. Fill in the form provided for you and submit 
+d. Once you've verified your email, you'll be directed to your GitHub dashboard.
+
+- Creating a New Repository
+a. On your account Dashboard, Click on the "+" sign beside a search box in the upper-right corner 
+of the account page
+b. Choose "New repository" from the drop-down menu
+c. Fill in the repository name, usually the name of your project
+d. Add a description (optional but recommended)
+e. Choose Public repositories as they are visible to anyone, and does not require Github subscription
+f. Initialize the repository with a README if you want to create a README file for your project
+g. Click the "Create repository" button to create the repository.
+
+- Cloning the New Repository
+* Cloning of a repository is by copying the repository (or git folder/directory) created on 
+github into your local machine (system).
+* Open a terminal window and navigate to the directory where you want to clone the project repository.
+* Clone the repository using the following instructions:
+
+1. Direct Cloning
+* Open a terminal on Linux or macOS, or a command prompt ( or git Bash terminal preferably) on Windows
+* Use the cd command to navigate to the directory where you want to clone the repository
+* Use the git clone command with the repository URL you copied from the github after creating your repo.
+* For example, "git clone https://github.com/username/repository.git"
+* NB: "username" is your github account name while "repository.git" is the name repository you have created 
+and end it with ".git" 
+
+2. Using SSH
+* If you're using SSH, you can copy the SSH URL from your github repository page:
+* For example, the SSH looks like this - "git clone git@github.com:username/repository.git"
+
+3. Using Personal Access Token (PAT)
+a. Create a GitHub personal access token (PAT):
+* Go to your GitHub account settings and click the Personal Access Tokens tab.
+* Click the Generate new token (classic) button.
+* Enter a name and description for your PAT.
+* Select the permissions and scopes that you want your PAT to have. 
+NB: "repo" permissions are be checked in order to allow you to push to remote server 
+* Click the Generate token button.
+* Your PAT will be displayed in a text box. Copy and store your PAT in a secure location. 
+* You will need this PAT to authenticate to GitHub using the command line or third-party apps and services.
+* Once you have created a PAT, you can use it to authenticate to GitHub by cloning a 
+repository or pushing changes to a repository.  
+
+b. Clone a repository using the PAT
+* Open a terminal (Git Bash terminal preferably).
+* Navigate to the directory where you want to clone the repository.
+* Clone the repository using the following command:
+ 
+"git clone https://token (PAT)@github.com/<username>/<repository>.git"
+
+* Replace <username> with your GitHub username, <repository> with the name of the 
+ repository you want to clone, and token (PAT) with your generated PAT. For Example,
+
+ "git clone https://PAT@github.com/chenYong/my_project.git"
+
+* Once the repository has been cloned, you can navigate to it using the "cd" command and 
+start working on the code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
