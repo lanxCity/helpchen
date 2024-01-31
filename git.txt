@@ -1,0 +1,58 @@
+- What is Git? 
+Git is a free and open source tool used for managing and tracking changes in any set of 
+computer files especially, source code or application files during software development.
+
+- Installation of Git
+
+1. For Windows system
+*Download the Git installer for Windows from the official Git website: https://git-scm.com/download/win
+*Choose which is setup is compatible to your system; 
+.click on 32-bit setup if the laptop/desktop is 32-bit
+.click on 64-bit setup if the laptop/desktop is 64-bit
+*After the download, locate the setup file and double click on it for installation
+*Click on "yes" when the system asked foor permission.
+
+2. Linux (Debian/Ubuntu)
+* On the terminal, type the following one after the other;
+* sudo apt-get update
+* sudo apt-get install git
+
+3. MacOS 
+* Most versions of MacOS will already have Git installed and you can type "git version" for activation.
+* Incase if it is not installed, follow these procedures;
+* Open the terminal and type the following:
+* "brew install git" 
+* OR 
+* "sudo port install git"
+
+- Verify Git Installation
+*After successful installion, type "git --version" on the terminal to verify the installation.
+* Once it shows the version of the git, that means the installion is successful.
+
+- Configure Git
+* on the terminal, follow these procedures for git configuration;
+* git config --global user.name "Your Name"
+* git config --global user.email "your email address"
+
+* NB: Replace "Your Name" and "your@email.com" with your actual name and email address respectively
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
