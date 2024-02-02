@@ -1,0 +1,44 @@
+git init -> To initialize or create new repository
+
+git config --global user.name -> To confgure user's name
+
+git config --global user.email -> To configure user's email
+
+git status -- To check the status of the repository (use oftens)
+
+git config --list  -> To list all the user's configuration
+
+git add filename -> To add an untracked file to the git so any changes made can be tracked 
+(any file added is considered the to be in stagging environment)
+
+git commit -m "Commit message" -- To take a snapshot of the files in the repository at a point in time
+
+git branch 'name' -- To create new branch for editing without affecting the main branch.
+
+git switch branchName  -- To switch to a desired brach created
+
+git merge -> merge changes in remote repository with the local machine's
+
+git merge -m "merging message" branchName -- To merge the current branch with the branchName
+
+git push --all - To push all the files to the github
+
+git log -- To review all the commits made
+
+git reset commit-id -- To jump back to previous commit
+
+git fetch  -- To view all the changes made on github from git bash 
+
+git pull - Fetch and merge any changes from remote to local directory
+
+git clone https://github.com/username/repository.git - To clone repository
+
+git remote set-url origin https://username:token@github.com/username/repo.git - To set remote origin using personal access token
+
+git rm --cached filename -- To untrack the file 
+
+git restore "index.html" -- to restore del file into the folder
+
+
+
+
